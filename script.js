@@ -3,6 +3,7 @@ let btn = document.getElementById('btn');
 
 btn.addEventListener('click',async() => {
     try {
+        showjoke.innerText = "Updating .."
         let url = `https://api.api-ninjas.com/v1/jokes`;
         let apiKey = 't4A4pWuLqmLcuCVM0PL6/A==kU2IAGtK7aLNhNIu';
 
